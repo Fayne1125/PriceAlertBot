@@ -37,14 +37,14 @@ from email_validator import validate_email, EmailNotValidError
 from subprocess import CREATE_NO_WINDOW
 from PyQt5 import QtTest
 
-firebaseConfig = {'apiKey': "AIzaSyCLULMOxz00QiL6hkKqHmMB0UAFuiB_Usk",
-  'authDomain': "nft-price-alert-db.firebaseapp.com",
-  'projectId': "nft-price-alert-db",
-  'storageBucket': "nft-price-alert-db.appspot.com",
-  'messagingSenderId': "938854563570",
-  'appId': "1:938854563570:web:1871fca30a22eafdac5a6b",
-  'measurementId': "G-YCNNWVTZES",
-  'databaseURL': "https://console.firebase.google.com/u/0/project/nft-price-alert-db/database/nft-price-alert-db-default-rtdb/data/~2F"}
+firebaseConfig = { 'apiKey': "YOUR_FIREBASE_API_KEY",
+  'authDomain': "YOUR_PROJECT_ID.firebaseapp.com",
+  'projectId': "YOUR_PROJECT_ID",
+  'storageBucket': "YOUR_PROJECT_ID.appspot.com",
+  'messagingSenderId': "YOUR_MESSAGING_SENDER_ID",
+  'appId': "YOUR_APP_ID",
+  'measurementId': "YOUR_MEASUREMENT_ID",
+  'databaseURL': "YOUR_DATABASE_URL"}
 
 firebase=pyrebase.initialize_app(firebaseConfig)
 auth=firebase.auth()
