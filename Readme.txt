@@ -1,12 +1,24 @@
-All the libraries are already compiled into this single .exe file( NFTPriceAlert.exe). 
-To run the system simply double click the .exe file and u should able to run without libraries issue.
-Other file as config.json and sources do need to interact. 
+# NFT Price Alert Bot
 
-To access the code of the this program, you can open the NFTPriceAlert.py file in any IDE which supports Python. 
-However, you will need to import the libraries into your Python/IDE path for your system to run the application in Python.
+A Python-based automation tool that monitors NFT floor prices and sends alerts when prices reach specified thresholds.  
+This project was developed as part of my Final Year Project (FYP).
 
-Usually, running .exe file would be fine as everything its inside already.
+> **Note:**  
+> The main focus of this repository is to showcase my **code and development process**.  
+> While there is an `.exe` version of the app, it has been excluded to comply with GitHub's file size limits and to keep the repository focused on source code.
 
-Once in the App, it is advised to check out support tab to understand how to setup the application.
+---
 
-Thank You.
+## 🎯 Project Overview
+NFT Price Alert Bot automatically tracks NFT prices and notifies users when certain conditions are met.  
+It was designed to **reduce the need for manual monitoring** of NFT marketplaces by automating the process.
+
+**Key Features:**
+- Real-time NFT price tracking
+- Customizable alert thresholds
+- Easy-to-edit configuration via `config.json`
+- Simple and lightweight Python codebase
+
+---
+
+## 🗂 Repository Structure
